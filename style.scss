@@ -150,13 +150,43 @@ img {
 // .masthead
 //
 
+.header-bg {
+  z-index: 1375;
+  height: 300px;
+  border-style: none;
+  border-color: transparent;
+  background: url("../images/skyline.jpeg") no-repeat scroll center top / cover #2D3E50;
+}
+
+.overlay-bg {
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1376;
+  height: 300px;
+  border-style: none;
+  border-color: transparent;
+  opacity: 0.6;
+  background: url("../images/overlay.gif") repeat scroll left top #FFF;
+}
+
+.overlay-fg {
+  z-index: 1377;
+  height: 300px;
+  color: #FFF;
+  border-style: none;
+  border-color: transparent;
+  position: relative;
+}
+
 .wrapper-masthead {
+  //background: #338899;
   margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  //border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -176,7 +206,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 50px;
   }
 }
 
@@ -192,7 +222,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +232,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
