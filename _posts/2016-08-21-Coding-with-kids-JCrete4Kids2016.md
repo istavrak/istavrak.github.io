@@ -1,5 +1,5 @@
 ---
-title: Coding with kids: JCrete4Kids 2016
+title: Coding with kids - JCrete4Kids 2016
 author: istavrak
 layout: post
 ---
