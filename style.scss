@@ -150,8 +150,30 @@ img {
 // .masthead
 //
 
-.default {
-  height: auto;
+.header-bg-default {
+  z-index: 1375;
+  border-style: none;
+  border-color: transparent;
+  background: url("../images/skyline.jpeg") no-repeat scroll center top / cover #2D3E50;
+}
+
+.overlay-bg-default {
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1376;
+  border-style: none;
+  border-color: transparent;
+  opacity: 0.6;
+  background: url("../images/overlay.gif") repeat scroll left top #FFF;
+}
+
+.overlay-fg-default {
+  z-index: 1377;
+  color: #FFF;
+  border-style: none;
+  border-color: transparent;
+  position: relative;
 }
 
 .header-bg {
