@@ -178,7 +178,6 @@ img {
 
 .header-bg {
   z-index: 1375;
-  height: 300px;
   border-style: none;
   border-color: transparent;
   background: url("../images/skyline.jpeg") no-repeat scroll center top / cover #2D3E50;
@@ -189,7 +188,7 @@ img {
   right: 0px;
   position: absolute;
   z-index: 1376;
-  height: 300px;
+  padding-bottom:50px;
   border-style: none;
   border-color: transparent;
   opacity: 0.6;
@@ -198,7 +197,7 @@ img {
 
 .overlay-fg {
   z-index: 1377;
-  height: 300px;
+  padding-bottom:50px;
   color: #FFF;
   border-style: none;
   border-color: transparent;
