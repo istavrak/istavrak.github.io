@@ -1,5 +1,5 @@
 ---
-title: PhD Defense - Innsbruck 2017-12-12
+title: PhD Defense - Innsbruck Dec 12th 2017
 author: istavrak
 layout: post
 ---
